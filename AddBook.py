@@ -37,7 +37,7 @@ def addBook():
     root.geometry("600x500")
 
     # Add your own database name and password here to reflect in the code
-    mypass = "4321"
+    mypass = "1234"
     mydatabase="db"
 
     con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)
